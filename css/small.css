@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #ECC745;
+    box-shadow: 0 2px 15px #ECC745;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.active {
+    background-color: white;
+    color: #ECC745;
+    box-shadow: 0 2px 15px #ECC745;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    border-top: 1px solid rgb(0, 0, 0, 0.3);
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: #ECC745;
+    box-shadow: 0 2px 15px #ECC745;
+}
+
+nav ul.hide {
+    display: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo-bar {
+    display: none;
+}
+
+h1,
+h2,
+h3,
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    padding: 5px 0;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    color: #ECC745;
+    font-family: 'Roboto', sans-serif;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.headings h1 {
+    font-size: 2.4rem;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin: 0 0 0 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    background-color: black;
+}
+
+.main-title {
+    padding: 1rem;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+    padding: 0.9rem;
+    background-color: #ECC745;
+    box-shadow: 0 2px 15px #ECC745;
+    margin-left: .4rem;
+    margin-right: .4rem;
+}
+
+.article {
+    padding: 2rem;
+}
+
+.contact {
+    padding: 0.9rem;
+    margin-left: .4rem;
+    margin-right: .4rem;
+    background-color: #ECC745;
+}
+
+.info p {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.info {
+    border: solid #ECC745;
+    background-color: #ECC745;
+}
+
+.media {
+    display: inline;
+    padding-left: 4.5rem;
+    padding-right: 2rem;
+}
+
+.media a img {
+    width: 10%;
+    padding: .1rem;
+    padding-bottom: 1rem;
+}
+
+.map img {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rems;
+}
+
+.top {
+    display: none;
+    margin: 0%;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
