@@ -47,7 +47,7 @@ nav ul.hide {
     font-family: 'Roboto', sans-serif;
 }
 
-.logo-bar {
+.logo-large {
     display: none;
 }
 
@@ -92,6 +92,10 @@ h1 {
     font-size: 1.8rem;
     margin: 0 0 0 17px;
     font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color: white;
 }
 
 main {
@@ -161,6 +165,10 @@ footer {
 .top {
     display: none;
     margin: 0%;
+}
+
+a .conheca {
+    color: red;
 }
 
 .clearfix:after {
