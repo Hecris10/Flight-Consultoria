@@ -6,6 +6,7 @@
         background-color: black;
         box-shadow: 0 2px 15px black;
         margin-bottom: 20px;
+        margin-left: 26%;
     }
     nav ul.hide {
         list-style: none;
@@ -19,7 +20,6 @@
         padding: 0;
         margin: 0;
         display: flex;
-        position: fixed;
         width: 100%;
     }
     nav ul li {
@@ -48,7 +48,11 @@
     }
     .logo-large {
         display: flex;
-        max-width: 40%;
+        border: solid #ECC745;
+        box-shadow: 0 2px 15px #ECC745;
+        width: 24%;
+        margin-top: -7%;
+        margin-left: 0.8%;
     }
     header {
         display: inline;
@@ -85,13 +89,11 @@
     .box-1 {
         grid-column-start: 1;
         padding: 0;
-        margin-right: -32%;
-        margin-top: 15%;
     }
     .box-2 {
-        grid-column-start: 2;
-        width: 125%;
-        margin-left: -40%;
+        margin-top: 5%;
+        grid-column-start: 1;
+        width: 90%;
     }
     .produtos {
         display: grid;
