@@ -7,6 +7,9 @@
         box-shadow: 0 2px 15px black;
         margin-bottom: 20px;
         margin-left: 26%;
+        margin-right: 1%;
+        max-width: 76rem;
+        position: static;
     }
     nav ul.hide {
         list-style: none;
