@@ -11,6 +11,8 @@ nav button {
 nav {
     background-color: #ECC745;
     box-shadow: 0 2px 15px #ECC745;
+    position: fixed;
+    width: 100%;
 }
 
 nav ul {
@@ -47,10 +49,6 @@ nav ul.hide {
     font-family: 'Roboto', sans-serif;
 }
 
-.logo-large {
-    display: none;
-}
-
 h1,
 h2,
 h3,
@@ -78,37 +76,58 @@ header img {
     height: auto;
 }
 
-.headings {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Roboto', sans-serif;
-}
-
-.headings h1 {
-    font-size: 2.4rem;
-}
-
 h1 {
     font-size: 1.8rem;
-    margin: 0 0 0 17px;
     font-family: 'Roboto', sans-serif;
+    color: #ECC745;
+    text-align: center;
 }
 
 h2 {
     color: white;
+    text-align: center;
+}
+
+.conheca a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
+    display: block;
+    border: solid;
+    border-color: #ECC745;
+    padding: .5rem;
+    background-color: #ECC745;
+}
+
+.conheca a:hover {
+    background-color: white;
+    border-color: white;
+    color: #ECC745;
+}
+
+.conheca {
+    margin: auto;
+    margin-bottom: 3.5rem;
+    margin-top: 2.5rem;
+    text-align: center;
+    max-width: 10rem;
 }
 
 main {
     background-color: black;
 }
 
-.main-title {
-    padding: 1rem;
+.logo {
+    width: 100%;
 }
 
 video {
     width: 100%;
     height: auto;
+}
+
+.produtos img {
+    width: 100%;
 }
 
 footer {
@@ -122,49 +141,14 @@ footer {
     margin-right: .4rem;
 }
 
-.article {
-    padding: 2rem;
+footer img {
+    width: 15%;
 }
 
-.contact {
-    padding: 0.9rem;
-    margin-left: .4rem;
-    margin-right: .4rem;
-    background-color: #ECC745;
-}
-
-.info p {
-    color: white;
-    text-align: center;
-    font-weight: bold;
-}
-
-.info {
-    border: solid #ECC745;
-    background-color: #ECC745;
-}
-
-.media {
+.social-media {
     display: inline;
-    padding-left: 4.5rem;
-    padding-right: 2rem;
-}
-
-.media a img {
-    width: 10%;
-    padding: .1rem;
-    padding-bottom: 1rem;
-}
-
-.map img {
-    width: 100%;
-    padding-top: 1rem;
-    padding-bottom: 1rems;
-}
-
-.top {
-    display: none;
-    margin: 0%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 a .conheca {

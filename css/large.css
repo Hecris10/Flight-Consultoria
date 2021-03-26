@@ -43,10 +43,7 @@
         display: block;
         margin: 0 auto;
     }
-    .logo-small {
-        display: none;
-    }
-    .logo-large {
+    .logo {
         display: flex;
         border: solid #ECC745;
         box-shadow: 0 2px 15px #ECC745;
