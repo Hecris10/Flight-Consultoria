@@ -41,7 +41,8 @@
         width: 15%;
         margin-top: 4%;
     }
-    .social-media img {
-        width: 5%;
+    .social {}
+    .social img {
+        width: 7%;
     }
 }
