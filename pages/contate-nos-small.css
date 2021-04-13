@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #ECC745;
+    box-shadow: 0 2px 15px #ECC745;
+    position: fixed;
+    width: 100%;
+    position: fixed;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.active {
+    background-color: white;
+    color: #ECC745;
+    box-shadow: 0 2px 15px #ECC745;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    border-top: 1px solid rgb(0, 0, 0, 0.3);
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: #ECC745;
+    box-shadow: 0 2px 15px #ECC745;
+}
+
+nav ul.hide {
+    display: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo img {
+    width: 100%;
+    margin-top: 5%;
+}
+
+h1 {
+    color: #ECC745;
+    text-align: center;
+    margin-left: 8%;
+    padding-right: 8%;
+    margin-top: -5%;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    margin: 8%;
+    font-size: 170%;
+}
+
+p {
+    color: white;
+    text-align: justify;
+    font-size: 150%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formulario {
+    margin: 8%;
+}
+
+input {
+    padding: 0%;
+}
+
+button p {
+    color: black;
+    text-align: center;
+    font-size: 100%;
+}
+
+.contato {
+    margin-bottom: 10%;
+}
+
+.contato h3 {
+    text-align: center;
+    margin: 5%;
+    padding: 0%;
+    color: #ECC745;
+}
+
+.contato a {
+    padding: 0%;
+    margin: 0%;
+}
+
+.contato img {
+    width: 38%;
+    display: flex;
+    margin: auto;
+}
+
+.whatsapp p {
+    text-align: center;
+    font-weight: bold;
+    color: #ECC745;
+}
+
+.escritorio {
+    display: block;
+}
+
+.escritorio img {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    padding: 4%;
+}
+
+.escritorio p {
+    padding: 0%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+    padding: 0.9rem;
+    background-color: #ECC745;
+    box-shadow: 0 2px 15px #ECC745;
+    margin-left: .4rem;
+    margin-right: .4rem;
+    margin-top: 8%;
+}
+
+.contact {
+    padding: 0.9rem;
+    margin-left: .4rem;
+    margin-right: .4rem;
+    background-color: #ECC745;
+}
+
+.info p {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.info {
+    border: solid #ECC745;
+    background-color: #ECC745;
+}
+
+.adjust_media p {
+    color: #ECC745;
+}
+
+.media {
+    display: inline;
+    padding-left: 4.5rem;
+    padding-right: 2rem;
+}
+
+.media a img {
+    width: 2%;
+    padding: .1rem;
+    padding-bottom: 1rem;
+}
+
+.map img {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rems;
+}
+
+footer h3 {
+    color: white;
+}
+
+footer img {
+    width: 16%;
+}
+
+.social-media {
+    display: inline;
+    margin-left: 25%;
+    margin-right: 0%;
+}
+
+.social-media img {
+    width: 10%;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}

@@ -11,6 +11,8 @@ nav button {
 nav {
     background-color: #ECC745;
     box-shadow: 0 2px 15px #ECC745;
+    position: fixed;
+    width: 100%;
 }
 
 nav ul {
@@ -58,6 +60,19 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
+h1,
+h2,
+h3 {
+    color: #ECC745;
+    text-align: center;
+}
+
+p {
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: black;
@@ -102,6 +117,70 @@ main {
     background-color: black;
 }
 
+.titulo {
+    padding: 0%;
+    margin-top: -8%;
+    margin-bottom: 4%;
+}
+
+.titulo h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.img-large {
+    display: none;
+    margin-top: 4%;
+}
+
+.img-small {
+    display: flex;
+    margin: auto;
+}
+
+.top {
+    display: none;
+    margin: 0%;
+}
+
+.BUTTON_WEP {
+    margin: auto;
+    font-size: 100%;
+    text-align: center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 5%;
+    background-color: #ECC745;
+    -webkit-box-shadow: 1px 1px 20px 0 #ECC745;
+    -moz-box-shadow: 1px 1px 20px 0 #ECC745;
+    box-shadow: 1px 1px 20px 0 #ECC745;
+    text-shadow: 38px 1px 20px #ECC745;
+    border: solid #ECC745 1px;
+    text-decoration: none;
+    display: flex;
+    cursor: pointer;
+    max-width: 10rem;
+    margin-bottom: 10%;
+}
+
+.BUTTON_WEP:hover {
+    border: solid #FFFFFF 1px;
+    background: #FFFFFF;
+    background-image: -webkit-linear-gradient(top, #FFFFFF, #FFFFFF);
+    background-image: -moz-linear-gradient(top, #FFFFFF, #FFFFFF);
+    background-image: -ms-linear-gradient(top, #FFFFFF, #FFFFFF);
+    background-image: -o-linear-gradient(top, #FFFFFF, #FFFFFF);
+    background-image: -webkit-gradient(to bottom, #FFFFFF, #FFFFFF);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #ECC745;
+}
+
 footer {
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -131,6 +210,10 @@ footer {
     background-color: #ECC745;
 }
 
+.adjust_media p {
+    color: #ECC745;
+}
+
 .media {
     display: inline;
     padding-left: 4.5rem;
@@ -138,7 +221,7 @@ footer {
 }
 
 .media a img {
-    width: 10%;
+    width: 2%;
     padding: .1rem;
     padding-bottom: 1rem;
 }
@@ -149,13 +232,12 @@ footer {
     padding-bottom: 1rems;
 }
 
-.top {
-    display: none;
-    margin: 0%;
+footer h3 {
+    color: white;
 }
 
-a .conheca {
-    color: red;
+footer img {
+    width: 16%;
 }
 
 .clearfix:after {

@@ -1,0 +1,20 @@
+.equipe h3 {
+    color: #ECC745;
+    text-align: center;
+}
+
+.equipe p {
+    text-align: center;
+}
+
+.equipe img {
+    width: 68%;
+    display: flex;
+    margin: auto;
+}
+
+.linke img {
+    width: 30%;
+    display: flex;
+    margin: auto;
+}

@@ -127,7 +127,9 @@ video {
 }
 
 .produtos img {
-    width: 100%;
+    width: 60%;
+    display: flex;
+    margin: auto
 }
 
 footer {
@@ -145,9 +147,12 @@ footer img {
     width: 15%;
 }
 
+.adjust_media p {
+    color: #ECC745
+}
+
 .social-media {
     display: inline;
-    margin-top: 10%;
     margin-bottom: 10%;
 }
 

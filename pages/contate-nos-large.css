@@ -1,0 +1,90 @@
+@media only screen and (min-width: 65rem) {
+    nav button {
+        display: none;
+    }
+    nav {
+        background-color: black;
+        box-shadow: 0 2px 15px black;
+        margin-bottom: 20px;
+        width: 100%;
+        position: fixed;
+    }
+    nav ul.hide {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        background-color: #ECC745;
+    }
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        width: 100%;
+    }
+    nav ul li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    nav ul li a {
+        display: block;
+        padding: .8rem 2%;
+        text-decoration: none;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+        font-size: 1.6rem;
+        font-family: 'Roboto', sans-serif;
+        border: none;
+    }
+    .logo img {
+        width: 55%;
+        display: flex;
+        margin: auto;
+    }
+    h1 {
+        font-size: 300%;
+        text-align: center;
+    }
+    h3 {
+        font-size: 200%;
+        padding: 0%;
+        text-align: center;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    p {
+        font-size: 170%;
+    }
+    form {
+        padding-left: 10%;
+    }
+    input {
+        width: 80%;
+        line-height: 230%;
+    }
+    button p {
+        font-size: 150%;
+        font-weight: bold;
+    }
+    button {
+        margin-top: 2%;
+        width: 20%;
+    }
+    .contato img {
+        width: 10%;
+    }
+    .escritorio h3 {
+        margin-top: 4%;
+    }
+    .rede h3 {
+        margin-top: 3%;
+    }
+    .social-media {
+        margin-top: 10%;
+    }
+    .social-media img {
+        margin-top: 3%;
+    }
+}
