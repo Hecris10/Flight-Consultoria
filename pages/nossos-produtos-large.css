@@ -44,11 +44,12 @@
         display: block;
         margin: 0 auto;
     }
-    .logo {
+    .logo img {
         display: flex;
-        width: 40%;
+        width: 55%;
         margin: auto;
-        padding-bottom: 5%;
+        margin-top: 2%;
+        margin-bottom: -4%;
     }
     header {
         display: block;
@@ -66,7 +67,7 @@
     }
     .main-1 {
         display: grid;
-        grid-templa98-columns: 65% 35%;
+        grid-template-columns: 65% 35%;
         grid-template-rows: auto;
     }
     .titulo {

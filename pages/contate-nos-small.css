@@ -69,7 +69,6 @@ h1 {
     text-align: center;
     margin-left: 8%;
     padding-right: 8%;
-    margin-top: -5%;
 }
 
 h3 {
@@ -110,6 +109,11 @@ button p {
     margin: 5%;
     padding: 0%;
     color: #ECC745;
+}
+
+input {
+    width: 86%;
+    line-height: 230%;
 }
 
 .contato a {

@@ -49,8 +49,10 @@ nav ul.hide {
     font-family: 'Roboto', sans-serif;
 }
 
-.logo-large {
-    display: none;
+.logo img {
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: -10%;
 }
 
 h1,

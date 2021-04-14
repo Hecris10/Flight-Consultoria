@@ -13,8 +13,28 @@
     margin: auto;
 }
 
+.linkedin_individual img {
+    width: 27%;
+    display: flex;
+    margin: auto;
+    margin-top: 4%;
+}
+
+hr {
+    display: flex;
+    width: 75%;
+}
+
+.linke h3 {
+    margin-top: 2%;
+}
+
 .linke img {
     width: 30%;
     display: flex;
     margin: auto;
+}
+
+footer hr {
+    width: 98%;
 }

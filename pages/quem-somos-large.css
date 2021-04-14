@@ -14,7 +14,7 @@
         text-align: center;
     }
     .equipe img {
-        width: 52%
+        width: 60%
     }
     .Kennedy {
         grid-column: 1;
@@ -37,11 +37,16 @@
         justify-self: center;
         width: 100%;
     }
+    .linkedin_individual img {
+        width: 27%;
+        display: flex;
+        margin: auto;
+        margin-top: 4%;
+    }
     .linke img {
         width: 15%;
         margin-top: 4%;
     }
-    .social {}
     .social img {
         width: 7%;
     }
