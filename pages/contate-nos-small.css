@@ -101,7 +101,7 @@ button p {
 }
 
 .contato {
-    margin-bottom: 10%;
+    margin-top: -8%;
 }
 
 .contato h3 {
@@ -112,8 +112,12 @@ button p {
 }
 
 input {
-    width: 86%;
+    width: 100%;
     line-height: 230%;
+}
+
+textarea {
+    width: 100%;
 }
 
 .contato a {

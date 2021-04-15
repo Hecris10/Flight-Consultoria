@@ -74,6 +74,9 @@
         width: 86%;
         line-height: 230%;
     }
+    textarea {
+        width: 86%;
+    }
     button p {
         font-size: 150%;
         font-weight: bold;
